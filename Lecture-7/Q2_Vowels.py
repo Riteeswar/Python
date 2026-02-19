@@ -7,7 +7,7 @@ def vowel_consonant (s):
             vowel += 1
         else:
             consonant += 1
-    return (f"There are {vowel} vowels are present and there are {consonant} consonants are present")
+    return f"There are {vowel} vowels are present and there are {consonant} consonants are present"
 
 s = input("Enter a string : ")
 print(vowel_consonant(s))
